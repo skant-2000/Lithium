@@ -1,10 +1,30 @@
-/* CSS of Index */
+/* CSS For Index - START */
 
-body {
-    margin-top: -1px;
+#navbar {
+    width: 100%;
+    height: 100px;
+    margin-top: -8px;
+    margin-left: -7px;
+    display: flex;
+    position: fixed;
+    background-color: #FFD85D;
 }
+#navbar > img {
+    width: 160px;
+    height: 50px;
+    margin: 25px 0 0px 40px;
+    cursor: pointer;
+}
+
+
+
+/* //////////////////// */
+
+
+
 #uncommon {
     height: 800px;
+    margin-top: -8px;
 }
 #uncommontext {
     grid-area: left;
@@ -40,6 +60,7 @@ body {
     padding-top: 10px;
     background-color: #267E6B;
     margin-top: 80px;
+    cursor: pointer;
 }
 #joinNow:hover {
     background-color: #0f4d3f;
@@ -96,6 +117,7 @@ body {
     text-align: center;
     padding-top: 15px;
     font-size: 19px;
+    cursor: pointer;
 }
 #learn:hover {
     color: white;
@@ -108,6 +130,7 @@ ol {
 #approachtxt > ol > li > a {
     color: black;
     text-decoration: none;
+    cursor: pointer;
 }
 
 
@@ -147,6 +170,7 @@ ol {
     background-color: white;
     font-weight: 600;
     letter-spacing: 1px;
+    cursor: pointer;
 }
 #brightline:hover {
     color: white;
@@ -241,7 +265,36 @@ ol {
 }
 
 
+/* Small Screen */
+
+
 @media only screen and (max-width: 600px) {
+    #navbar {
+        margin-top: -17px;
+    }
+    #option {
+        display: none;
+    }
+    #btns {
+        display: none;
+    }
+    #workdrop {
+        display: none;
+    }
+    #workdrop {
+        display: none;
+    }
+    #employdrop {
+        display: none;
+    }
+    #familydrop {
+        display: none;
+    }
+    #careerdrop {
+        display: none;
+    }
+
+
     #uncommon {
         display: grid;
         height: 920px;
@@ -251,6 +304,7 @@ ol {
     #uncommontext {
         background-color: #FFD85D;
         padding-bottom: 50px;
+        padding-top: 50px;
     }
     #uncommonimg {
         width: 100%;
@@ -262,7 +316,7 @@ ol {
 
 
     #supporting {
-        margin: 70px 0px 40px;
+        margin: 100px 0px 40px;
     }
 
 
@@ -376,16 +430,49 @@ ol {
     }
 }
 
+
+/* Mid Screen */
+
+
 @media only screen and (min-width: 600px) {
+    #navbar {
+        margin-top: -17px;
+    }
+    #option {
+        display: none;
+    }
+    #btns {
+        display: none;
+    }
+    #workdrop {
+        display: none;
+    }
+    #employdrop {
+        display: none;
+    }
+    #familydrop {
+        display: none;
+    }
+    #careerdrop {
+        display: none;
+    }
+
+
+
+
     #uncommon {
         display: grid;
         grid-template-areas: 'left'
                               'right';
     }
     #uncommontext {
+        padding-top: 50px;
         background-color: #FFD85D;
-        padding-bottom: 50px;
+        padding-bottom: 40px;
         width: 100%;
+    }
+    #uncommontext > div {
+        margin-left: 40px;
     }
     #uncommonimg {
         width: 100%;
@@ -514,7 +601,133 @@ ol {
     }
 }
 
+
+/* Large Screen */
+
+
 @media only screen and (min-width: 1000px) {
+    #option {
+        display: flex;
+        margin-left: 10%;
+        width: 900px;
+    }
+    #option > div {
+        margin: auto 5%;
+        width: 20%;
+        cursor: pointer;
+    }
+    #option > div:hover {
+        color: #267E6B;
+    }
+    #btns {
+        display: flex;
+        margin: auto ;
+        margin-right: 40px;
+    }
+    #btns > div {
+        width: 120px;
+        height: 35px;
+        border-radius: 50px;
+        margin-left: 10px;
+        text-align: center;
+        padding-top: 15px;
+        font-weight: 600;
+        cursor: pointer;
+    }
+    #btns > div:nth-child(1) {
+        border: 1px solid black;
+        letter-spacing: 0.6px;
+    }
+    #btns > div:nth-child(1):hover {
+        color: white;
+        background-color: #267E6B;
+        border: 1px solid #267E6B;
+        transition: all .1s ease-in-out;
+    }
+    #btns > div:nth-child(2) {
+        background-color: #267E6B;
+        color: white;
+        letter-spacing: 1.3px;
+    }
+    #btns > div:nth-child(2):hover {
+        background-color: #0d4b3d;
+        transition: all .1s ease-in-out;
+    }
+    
+
+    .droptxt {
+        margin: 0px 0 0 40px;
+        width: 270px;
+    }
+    .droptxt > p:nth-child(1) {
+        font-size: 35px;
+    }
+    .droptxt > p:nth-child(2) {
+        font-size: 17px;
+        margin-top: -20px;
+    }
+    .droplist {
+        display: flex;
+        flex-direction: column;
+        margin-left: 200px;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+    .droplist > div:nth-child(1) {
+        margin-top: 0;
+    }
+    .droplist > div {
+        font-size: 20px;
+        margin-top: 15%;
+    }
+    #workdrop {
+        display: flex;
+        position: fixed;
+        z-index: 1;
+        width: 100%;
+        height: 200px;
+        background-color: #FFD85D;
+        margin-top: 83px;
+        margin-left: -7px;
+        visibility: hidden;
+    }
+    #employdrop {
+        display: flex;
+        position: fixed;
+        z-index: 2;
+        width: 100%;
+        height: 250px;
+        background-color: #FFD85D;
+        margin-top: 83px;
+        margin-left: -7px;
+        visibility: hidden;
+    }
+    #familydrop {
+        display: flex;
+        position: fixed;
+        z-index: 2;
+        width: 100%;
+        height: 250px;
+        background-color: #FFD85D;
+        margin-top: 83px;
+        margin-left: -7px;
+        visibility: hidden;
+    }
+    #careerdrop {
+        display: flex;
+        position: fixed;
+        z-index: 2;
+        width: 100%;
+        height: 250px;
+        background-color: #FFD85D;
+        margin-top: 83px;
+        margin-left: -7px;
+        visibility: hidden;
+    }
+
+
+
+
     #uncommon {
         display: flex;
     }
@@ -525,6 +738,7 @@ ol {
         background-color: #ffffff;
         padding-bottom: 50px;
         width: 100%;
+        margin: auto;
     }
     #approach {
         display: flex;
@@ -638,3 +852,6 @@ ol {
         padding: 30px 50px 0;
     }
 }
+
+
+/* CSS For Index - END */
