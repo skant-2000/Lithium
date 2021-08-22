@@ -119,7 +119,6 @@ function employsub () {
         msnavdropemploy.removeChild(msnavdropemploy.childNodes[1]);
     }
     countes++
-    console.log(countes)
 }
 
 function familysub () {

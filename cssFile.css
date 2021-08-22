@@ -1,4 +1,5 @@
-/* CSS For Index - START */
+/* ..........CSS For Index - START.......... */
+
 
 #navbar {
     width: 100%;
@@ -9,7 +10,7 @@
     background-color: #FFD85D;
     padding-top: 15px;
 }
-#navbar > img {
+#navbar > a > img {
     width: 160px;
     height: 50px;
     margin: 25px 0 0px 40px;
@@ -59,6 +60,7 @@
     cursor: pointer;
     text-decoration: none;
     color: black;
+    margin-left: 0;
 }
 #msnavdrop > div > div > div > div:hover {
     color: #145a4b;
@@ -331,7 +333,7 @@ ol {
 }
 
 
-/* Small Screen */
+/* .....Small Screen..... */
 
 
 @media only screen and (max-width: 600px) {
@@ -393,7 +395,7 @@ ol {
 
     #uncommon {
         display: grid;
-        height: 920px;
+        height: 910px;
         grid-template-areas: 'left'
                               'right';
     }
@@ -526,7 +528,7 @@ ol {
 }
 
 
-/* Mid Screen */
+/* .....Mid Screen..... */
 
 
 @media only screen and (min-width: 600px) {
@@ -727,7 +729,7 @@ ol {
 }
 
 
-/* Large Screen */
+/* .....Large Screen..... */
 
 
 @media only screen and (min-width: 1000px) {
@@ -819,6 +821,9 @@ ol {
     .droplist > div:hover {
         color: #0d4b3d;
         cursor: pointer;
+    }
+    .droplist > div > a {
+        margin-left: 0px;
     }
     #workdrop {
         display: flex;
@@ -994,10 +999,11 @@ ol {
 }
 
 
-/* CSS For Index - END */
+/* ..........CSS For Index - END.......... */
 
 
-/* CSS For Sign Up - START */
+/* ..........CSS For Sign Up - START.......... */
+
 
 #form {
     width: 40%;
@@ -1006,534 +1012,128 @@ ol {
     text-align: center;
 }
 
-/* CSS For Sign Up - END */
 
-.footer{
-    width: 90%;
-    height: 600px;
-    background-color: #2c333f;
-    padding: 5%;
-    color: #fff;
+/* ..........CSS For Sign Up - END.......... */
+
+    
+/* ..........CSS For Footer - START.......... */
+
+
+.footer {
     display: flex;
+    background-color: #2C333F;
+    color: white;
+    padding: 0.5% 2%;
+    height: 650px;
 }
-.email{
-    height:50px;
-    border-radius: 9px;
-    border: none;
-    width: 390px;
-    margin-right: 0px;
-    font-size:20px;
-    padding-left: 10px;
+.footer > div {
+    margin: 3%;
 }
-.arow{
-    height:50px;
-    width: 15px;
-    margin-left: -1px;
-    border: none;
-    font-size: 15px;
+.left-div {
+    width: 45%;
 }
-.social-icon{
-    width: 30%;
-    margin-top:5%;
-    margin-bottom: 5%;
+.leader-name {
+    font-size: 30px;
 }
-
-.face{
-    font-size: 35px;
-    height:90px;
-    width: 90px;
-    margin-right: 10px;
-    
-    
+.fast {
+    font-size: 18px;
+    margin-top: -15px;
 }
-.fa{
-    color: #fff
-}
-.fa:hover{
-    cursor:pointer;
-}
-.phn{
-    margin-right: 10px;
-    height: 20px;
-    width: 20px;
-}
-.here{
-    color: #fff;
-}
-.phon-no{
-    font-size: 20px;
-}
-.left-div{
-    width: 40%;
-
-}
-.right-div{
-    width: 55%;
-    padding-left:5%;
-    padding-right: 5%;
-}
-.table{
-    width: 100%;
-    display: flex;
-    height: 100;
-    flex-wrap: wrap;
-}
-.td{
-    width: 25%;
-    margin-bottom: 2%;
-    margin-right: 8%;
-}
-html{
-    scroll-behavior: smooth;
-}
-.smooth{
-    color: #fff;
-    text-decoration: none;
-}
-.stamp-last{
-    height: 180px;
-    margin-top: 3%;
-    margin-bottom:2%;
-}
-.line{
-    line-height:1.5;
-}
-.hr-div{
-    width: 90%;
-    height: 100;
-    background-color: #2c333f;
-    padding: 5%;
-    color: #fff;
-}
-.align{
-    float: right;
-}
-.privacy{
-    padding-top: 10px;
-    color: #fff;
-}
-/* CSS For CarePage - START */
-
-button:hover{
-    background-color:rgb(4, 70, 70);
-}
-#cont > div{
-    background-color: white;
-    height: auto;
-    margin: px;
-    width: 50%;
-    margin-top: 0px;
-    overflow-y:hidden;
-}
-#cont{
-    display: flex;
-    flex-direction: row;
-    column-gap: 20px;
-    width: 100%;
-}
-#cont > div > img{
-    height: 620px;
-    width: 100%;
-    flex-wrap: wrap;
-}
-#box{
-   display: flex;
-   flex-direction: column;
-   flex-wrap: wrap;
-}
-#box > div{
-    width: 85%;
-    font-family: 'Atkinson Hyperlegible', sans-serif;
-    margin: auto;
-    margin-top: 0px;
-    padding-top: 0px;
-    margin-left: 5%;
-    margin-right: 5%;
-    margin-bottom: 10px;
-}
-#box > div:nth-of-type(1){
-   margin-top: 100px;
-   
-}
-#box  h1{
-   font-size: 2px;
-   padding-top: 3%;
-   font-weight: 1%;
-   
-}
-.lora{
-font-family: 'Lora', serif;
-}
-#box h2{
-   font-size: 45px;
-   margin: 0px;
-   
-}
-.ft-wt{
-   font-weight: lighter;
-}
-.start-button{
-   margin-top: 20px;
-   height: 50px;
-   width: 120px;
-   border-radius: 30px;
-   background-color: teal;
-   color: white;
-   padding-bottom: 0%;
-   text-align: center;
-
-}
-#box h6{
-    font-size: 1px;
-}
-.txt-align{
-    text-align: center;
-}
-#box h5{
-    font-size: xx-small;
-    padding-top: 1%;
-}
-h2 b{
-    color: teal;
-}
-#cont2{
-    height:450px;
-    width: 70%;
-    margin: auto;
-    margin-top: 150px;
-    text-align: center;
-}
-#cont2 > h1{
-    font-family: 'Playfair Display', serif;
-    font-weight: 1px;
-}
-#cont2 > p{
-    font-family: 'Atkinson Hyperlegible', sans-serif;
-    margin-top: 0px;
-    font-size: 10px;
-}
-#box2{
-    height:80%;
-    column-gap: 20px;
-    display: grid;
-    grid-template-columns: repeat(3, auto);
-    grid-template-rows: 310px;
-    margin-top: 50px;
-   
-}
-#box2 div{
-    
-    
-    padding-right: 40px;
-}
-
-#box2 img{
-    width: 64px;
-    height: 64px;
-}
-#box2 h2{
-    font-size: 20px;
-    text-align: left;
-    color: teal;
-    font-family: 'Playfair Display', serif;
-    
-}
-#box2 p{
-    font-family: 'Atkinson Hyperlegible', sans-serif;
-    text-align: left;
-    padding-top: 10px;
-    font-size: 5px;
-}
-.age p{
-    font-style: italic;
-    font-size: 2px;
-}
-#cont2 h1{
-    font-family: 'Playfair Display', serif;
-    text-align: center;
-    margin-bottom: 20px;
-}
-#cont3{
-    height: 710px;
-    width:68%;
-    margin: auto;
-    margin-top: 5px;
-    /* border: 1px solid black; */
-}
-#cont3 p,#cont4 p, .para2 p ,#box3 p,#main p,#cont6 p{
-    text-align: center;
-    font-family: 'Atkinson Hyperlegible', sans-serif;
-    padding-right: 30px;
-    padding-left: 30px;
-    font-size: 2px;
-    padding-bottom: 20px;
-}
-#main p{
-    padding-bottom: 0px;
-    padding-left: 15%;
-    padding-right: 15%;
-}
-#box3{
-    display: flex;
-    flex-wrap:wrap;
-}
-#box3 > div{
-    flex-direction: column;
-    width: 48%;
-    margin: 1%;
-    height: 600px;
-    margin-top: 40px;
-    
-}
-#box3 img{
-    height: 40%;
-    width:100%;
-}
-.boy-image{
-    background-color:rgba(255,243,206) ;
-    
-}
-.girl-image{
-    background-color: rgba(215,231,253);
-}
-#box3 h2{
-    padding-left: 30px;
-    padding-top: 30px;
-    font-weight: 20;
-    font-size: 25px;
-    color:#263238 ;
-}
-.header{
-    text-align: center;
-    font-family: Times, "Times New Roman", Georgia, serif;
-    margin-top: 100px;
-    color: #263238;
-}
-#box3 p{
-    font-family: 'Atkinson Hyperlegible', sans-serif;
-    font-size: 0.5;
-    text-align:start;
-    padding-left: 30px;
-    padding-right: 80px;
-    font-weight:50;
-}
-#cont4{
-    width: 80%;
-   
-    padding: 4rem 6rem;
-    display: flex;
-    flex-direction: row;
-}
-.flex-box1{
-    flex-direction: row;
-   
-    
-}
-.flex-box2{
-    display: flex;
-    flex-wrap: wrap;
-}
-.icon-box{
-    display: grid;
-    grid-template-columns: 10% 80%;
-    width: 90%;
-    grid-column-gap: 10px;
-    
-    margin-left: 30px;
-}
-
-.icon-img{
-    display: flex;
-    justify-content: flex-end;
-    align-items: baseline;
-}
-.icon-img img {
-    width: 32px;
-    height: auto;
-}
-
-.icon-dis h3{
-    margin-top: 0px;
-}
-.women-image{
-    height: 100%;
-    width: 100%;
-}
-#cont5{
-    height: 330px;
-    width: 98%;
-    background-color: rgba(222,235,233);
-    margin-top: 50px;
-  
-}
-.para2{
-    text-align: center;
+.email {
     width: 60%;
-    height:55%;
-    font-weight: 1;
-    margin: auto;
-    padding-top: 30px;
-    font-size: 25px;
-    text-align: center;
-    font-family: 'Playfair Display', serif;
-    color: #1a2124;
+    height: 35px;
+    border-radius: 5px;
+    padding-left: 15px;
 }
-#cont6{
-    width: 80%;
-    height: 800px;
-    /* border: 1px solid black; */
-    margin: auto;
-    margin-top: 20px;
-    margin-bottom: 0px;
-    display: grid;   
+.post {
+    margin-top: 25px;
 }
-.container {
-    display: grid;
-    grid-template-columns: repeat(3, minmax(200px, 1fr));
-    grid-auto-rows: minmax(100px, auto);
-    gap: 0px;
-    height: 900px;
+.post > a {
+    color: white;
+}
+.right-div {
+    width: 55%;
+    padding-top: 15px;
+}
+.table {
+    display: flex;
+    flex-wrap: wrap;
+}
+.td {
+    width: 30%;
+    margin-top: -15px;
+}
+.smooth {
+    margin-left: 0px;
+    color: white;
+}
+.stamp-last {
+    margin: 20px 0px;
+}
+.line {
     width: 90%;
-    margin-left: 40px;
-}
-.container > div{
-    padding-bottom: 0px;
-    margin-bottom: 0px;
-    padding-top: 0px;
     margin-top: 0px;
 }
-.team{
-    height:40%;
-    width: 100%;
-    /* background-color: wheat; */
-    margin: auto;
-    text-align: center;
-    margin-bottom: 0px;
+.hr-div {
+    height: 110px;
+    background-color: #2C333F;
+    margin-top: 1px;
+    display: flex;
+    padding-top: 30px;
+    padding-left: 30px;
 }
-.team img{
-    width: 50%;
-    height: 80%;
-    border-radius: 40%;
-    padding-top: 10px;
+.hr-div a {
+    color: white;
 }
-.team-dis{
-    /* background-color: teal; */
-    width: 100%;
-    height:40% ;
-    text-align: center;
+.hr-div > div {
+    display: flex;
 }
-.team-dis h3{
-    font-family: 'Playfair Display', serif;
-    font-size: 20px;
+.hr-div > div > a {
+    margin-left: 20px;
 }
-.team-dis p .cont7-para{
-    font-family: 'Atkinson Hyperlegible', sans-serif;
-    font-size: 2;
-    margin-top: 0px;
-}
-#cont7{
-    height: 500px;
-    width: 100%;
-    /* border: 1px solid blue; */
-    margin-top: 30px;
-}
-.cont7-main{
-    height: 65%;
-    width: 80%;
-    margin: auto;
-    margin-top: 10%;
-    /* border: 1px solid red; */
-    background-color: #FBC02D;
-}
-.cont7-image{
-    position: relative;
-    height: 100%;
-    bottom: 59px;
-    background: transparent;
-}
-.cont7-image img{
-    height:100%;
-    margin-left: 10%;
-}
-.cont7-text{
-    height: 85%;
-    width: 35%;
-    margin-left: 10%;
-    margin-top: 20px;
-    float: left;
-}
-.ready{
-    font-size: 40px;
-    font-weight: 2;
-}
-.ready b{
-    color: teal;
-}
-.book{
-   height: 40px;
-   width: 120px;
-   border-radius: 30px;
-   background-color: teal;
-   color: white;
-   text-align: center;
-   font-size: 2px;
-}
-.book-session{
-    width: 152px;
-    border-radius: 30px;
-    height: auto;
-    padding-top: 0px;
-    font-size: 1;
-    background-color: white;
-    border: 1px solid teal;
-    color: teal;
-    text-align: center;
-    font-family: 'Atkinson Hyperlegible', sans-serif;
-    padding-left: 18px;
-    padding-top: 9px;
-    padding-bottom: 9px;
-    margin-left: 67px;
-}
-#bottom-head{
-    height: 100px;
-    width: 100%;
-    text-align: center;
-}
-#bottom-head h1{
-    margin-top: 0px;
-    text-align: center;
-    font-family: Times, "Times New Roman", Georgia, serif;
-    color: #263238;
-    font-size: 40px;
-}
-#cont8{
-    padding: 0px 10%;
-    height: 200px;
-    width: 80%;
-    margin-top: 30px;
-    display: grid;
-    grid-template-columns: repeat(4,2fr);
-    grid-column-gap: 21px;
-   
-}
-#bottom-head p{
-    text-align: center;
-    font-family: 'Atkinson Hyperlegible', sans-serif;
-    font-size: 2px;
-    padding-top: 0px;
-    padding-bottom: 20px;
-}
-#cont8 img{
-    height: 96%;
-    width: 95%;
-    padding: 2px
-}
-#bottom-box{
-    height: 800px;
-    background-color:  rgba(44,51,63);
-    width: 100%;
-    margin-top: 150px;
+.hr-div > div:nth-child(2) {
+    margin-left: 33%;
 }
 
 
-/* CSS For Care - END */
+@media only screen and (max-width: 1000px)  {
+    .footer {
+        display: flex;
+        flex-direction: column;
+        height: 1420px;
+    }
+    .table {
+        display: flex;
+        flex-direction: column;
+    }
+    .stamp-last {
+        margin: 30px 0;
+    }
+    .left-div ,.right-div {
+        width: 93%;
+    }
+    .line {
+        width: 99%;
+    }
+
+
+    .hr-div {
+        flex-direction: column;
+        height: 170px;
+        padding-left: 20px;
+    }
+    .hr-div > div {
+        flex-direction: column;
+    }
+    .hr-div > div:nth-child(2) {
+        margin-left: 0px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .footer {
+        height: 1500px;
+    }
+}
+
+/* ..........CSS For Footer - END.......... */

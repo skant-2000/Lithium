@@ -1,0 +1,586 @@
+/* ..........Navbar code - START.......... */
+
+
+#navbar {
+    width: 100%;
+    height: 100px;
+    margin-left: -7px;
+    display: flex;
+    position: fixed;
+    background-color: #FFD85D;
+    padding-top: 15px;
+}
+#navbar > a > img {
+    width: 160px;
+    height: 50px;
+    margin: 25px 0 0px 40px;
+    cursor: pointer;
+}
+
+#msnavdrop {
+    position: fixed;
+    visibility: hidden;
+    z-index: 5;
+    margin-top: 80px;
+    width: 110%;
+    margin-left: -10px;
+    height: 900px;
+    background-color: #FFD85D;
+}
+#msnavdrop > div {
+    font-size: 20px;
+    margin: 10px 0 0 40px;
+    height: 400px;
+}
+#msnavdrop > div > div {
+    margin-top: 20px;
+    cursor: pointer;
+}
+#msnavdrop > div > hr {
+    margin-bottom: 70px;
+    margin-left: -40px;
+}
+#msnavdrop > div > div:hover {
+    color: #267E6B;
+}
+#msnavdrop > div > div > div {
+    background-color:#FFF28B;
+    margin-top: 10px;
+    padding: 5px 0 5px 20px;
+    border-radius: 5px;
+    width: 85%;
+}
+#msnavdrop > div > div > div {
+    color: black !important;
+    cursor: default;
+    font-size: 17px;
+}
+#msnavdrop > div > div > div > div,a {
+    margin: 10px;
+    margin-left: 0px;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+}
+#msnavdrop > div > div > div > div:hover {
+    color: #145a4b;
+}
+
+#msnavdropsignup {
+    width: 120px;
+    height: 36px;
+    color: white;
+    background-color: #267E6B;
+    text-align: center;
+    padding-top: 12px;
+    border-radius: 40px;
+    margin-top: 80px !important;
+}
+#msnavdropsignup:hover{
+    background-color: #105546;
+    color: white !important;
+}
+.mssub {
+    display: none;
+}
+
+
+@media only screen and (max-width: 600px) {
+    #navbar {
+        display: flex;
+    }
+    #option {
+        display: none;
+    }
+    #btns {
+        display: none;
+    }
+    #workdrop {
+        display: none;
+    }
+    #workdrop {
+        display: none;
+    }
+    #employdrop {
+        display: none;
+    }
+    #familydrop {
+        display: none;
+    }
+    #careerdrop {
+        display: none;
+    }
+
+    #burger {
+        position: fixed;
+        display: flex;
+        flex-direction: column;
+        width: 45px;
+        height: 40px;
+        margin-top: 25px;
+        margin-left: 85%;
+        cursor: pointer;
+    }
+    #burger > div {
+        width: 90%;
+        height: 1.5px;
+        background-color: rgb(41, 41, 41);
+        margin: auto;
+    }
+    #cross {
+        position: fixed;
+        display: none;
+        flex-direction: column;
+        width: 45px;
+        height: 40px;
+        margin-top: -26px;
+        margin-left: 86%;
+        cursor: pointer;
+    }
+    #cross > p {
+        font-size: 45px;
+    }
+}
+
+
+@media only screen and (min-width: 600px) {
+    #navbar {
+        margin-top: -17px;
+    }
+    #option {
+        display: none;
+    }
+    #btns {
+        display: none;
+    }
+    #workdrop {
+        display: none;
+    }
+    #employdrop {
+        display: none;
+    }
+    #familydrop {
+        display: none;
+    }
+    #careerdrop {
+        display: none;
+    }
+
+    #burger {
+        position: fixed;
+        display: flex;
+        flex-direction: column;
+        width: 45px;
+        height: 40px;
+        margin-top: 25px;
+        margin-left: 85%;
+        cursor: pointer;
+    }
+    #burger > div {
+        width: 90%;
+        height: 1.5px;
+        background-color: rgb(41, 41, 41);
+        margin: auto;
+    }
+    #cross {
+        position: fixed;
+        display: none;
+        flex-direction: column;
+        width: 45px;
+        height: 40px;
+        margin-top: -26px;
+        margin-left: 86%;
+        cursor: pointer;
+    }
+    #cross > p {
+        font-size: 45px;
+    }
+}
+
+
+@media only screen and (min-width: 1000px) {
+    #option {
+        display: flex;
+        margin-left: 10%;
+        width: 900px;
+    }
+    #option > div {
+        margin: auto 5%;
+        width: 20%;
+        cursor: pointer;
+    }
+    #option > div:hover {
+        color: #267E6B;
+    }
+    #btns {
+        display: flex;
+        margin: auto ;
+        margin-right: 40px;
+    }
+    #btns > div {
+        width: 120px;
+        height: 35px;
+        border-radius: 50px;
+        margin-left: 10px;
+        text-align: center;
+        padding-top: 15px;
+        font-weight: 600;
+        cursor: pointer;
+    }
+    #btns > div:nth-child(1) {
+        border: 1px solid black;
+        letter-spacing: 0.6px;
+    }
+    #btns > div:nth-child(1):hover {
+        color: white;
+        background-color: #267E6B;
+        border: 1px solid #267E6B;
+        transition: all .1s ease-in-out;
+    }
+    #btns > div:nth-child(2) {
+        background-color: #267E6B;
+        color: white;
+        letter-spacing: 1.3px;
+    }
+    #btns > div:nth-child(2):hover {
+        background-color: #0d4b3d;
+        transition: all .1s ease-in-out;
+    }
+
+    #burger {
+        display: none;
+    }
+    #cross {
+        display: none;
+    }
+
+    #msnavdrop {
+        display: none;
+    }
+    
+
+    .droptxt {
+        margin: 0px 0 0 40px;
+        width: 270px;
+    }
+    .droptxt > p:nth-child(1) {
+        font-size: 35px;
+    }
+    .droptxt > p:nth-child(2) {
+        font-size: 17px;
+        margin-top: -20px;
+    }
+    .droplist {
+        display: flex;
+        flex-direction: column;
+        margin-left: 200px;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+    .droplist > div:nth-child(1) {
+        margin-top: 0;
+    }
+    .droplist > div {
+        font-size: 20px;
+        margin-top: 15%;
+    }
+    .droplist > div:hover {
+        color: #0d4b3d;
+        cursor: pointer;
+    }
+    .droplist > div > a {
+        margin-left: 0px;
+    }
+    #workdrop {
+        display: flex;
+        position: fixed;
+        z-index: 1;
+        width: 100%;
+        height: 200px;
+        background-color: #FFD85D;
+        margin-top: 83px;
+        margin-left: -7px;
+        visibility: hidden;
+    }
+    #employdrop {
+        display: flex;
+        position: fixed;
+        z-index: 2;
+        width: 100%;
+        height: 250px;
+        background-color: #FFD85D;
+        margin-top: 83px;
+        margin-left: -7px;
+        visibility: hidden;
+    }
+    #familydrop {
+        display: flex;
+        position: fixed;
+        z-index: 2;
+        width: 100%;
+        height: 250px;
+        background-color: #FFD85D;
+        margin-top: 83px;
+        margin-left: -7px;
+        visibility: hidden;
+    }
+    #careerdrop {
+        display: flex;
+        position: fixed;
+        z-index: 2;
+        width: 100%;
+        height: 250px;
+        background-color: #FFD85D;
+        margin-top: 83px;
+        margin-left: -7px;
+        visibility: hidden;
+    }
+}
+
+
+/* ..........Navbar code - END.......... */
+
+/* ..........CSS For CarePage - START.......... */
+
+
+#cont {
+    width: 100%;
+    display: flex;
+}
+.car {
+    font-size: 15px;
+}
+.start-button {
+    background-color: #267E6B;
+    height: 45px;
+    color: white;
+    width: 100px;
+    border-radius: 20px;
+    margin: 30px 0;
+    width: 130px;
+}
+.start-button:hover {
+    background-color: #0d4b3d;
+}
+#img1 {
+    background-image: url("https://hellobrightline.s3.amazonaws.com/families_membership_hero_mom_son_imac_96280070ef.png");
+    background-size: cover;
+    background-position: center;
+}
+
+@media only screen and (max-width: 600px) {
+    #navbar {
+        margin-top: -10px;
+    }
+    #cont {
+        display: flex;
+        flex-direction: column;
+        width: 105%;
+        padding-top: 120px;
+        margin-left: -10px;
+        margin-top: 0;
+        background-color: #FFD85D;
+    }
+    #cont > div > img {
+        width: 100%;
+    }
+    #box {
+        width: 100%;
+        padding-left: 20px;
+    }
+    #box > div {
+        width: 90%;
+    }
+    .lora {
+        font-size: 35px;
+        font-weight: 100;
+    }
+    .support {
+        font-size: 15px;
+    }
+    .start-button {
+        width: 100%;
+    }
+    .call {
+        font-size: 13px;
+    }
+    #img1 {
+        width: 100%;
+        height: 300px;
+    }
+}
+
+
+@media only screen and (min-width: 600px) {
+    #cont {
+        display: flex;
+        flex-direction: column;
+        width: 105%;
+        padding-top: 120px;
+        margin-left: -10px;
+        margin-top: 0;
+        background-color: #FFD85D;
+    }
+    #cont > div > img {
+        width: 100%;
+    }
+    #box {
+        width: 100%;
+        padding-left: 20px;
+    }
+    #box > div {
+        width: 90%;
+    }
+    .lora {
+        font-size: 35px;
+        font-weight: 100;
+    }
+    .support {
+        font-size: 15px;
+    }
+    .call {
+        font-size: 13px;
+    }
+    #img1 {
+        width: 100%;
+        height: 500px;
+    }
+}
+
+
+@media only screen and (min-width: 1000px) {
+    #cont {
+        display: flex;
+        flex-direction: row;
+        width: 105%;
+        padding-top: 120px;
+        margin-left: -10px;
+        margin-top: 0;
+        background-color: #FFD85D;
+    }
+}
+
+
+/* ..........CSS For Care - END.......... */
+
+/* ..........CSS For Footer - START.......... */
+
+
+.footer {
+    display: flex;
+    background-color: #2C333F;
+    color: white;
+    padding: 0.5% 2%;
+    height: 650px;
+}
+.footer > div {
+    margin: 3%;
+}
+.left-div {
+    width: 45%;
+}
+.leader-name {
+    font-size: 30px;
+}
+.fast {
+    font-size: 18px;
+    margin-top: -15px;
+}
+.email {
+    width: 60%;
+    height: 35px;
+    border-radius: 5px;
+    padding-left: 15px;
+}
+.post {
+    margin-top: 25px;
+}
+.post > a {
+    color: white;
+}
+.right-div {
+    width: 55%;
+    padding-top: 15px;
+}
+.table {
+    display: flex;
+    flex-wrap: wrap;
+}
+.td {
+    width: 30%;
+    margin-top: -15px;
+}
+.smooth {
+    margin-left: 0px;
+    color: white;
+}
+.stamp-last {
+    margin: 20px 0px;
+}
+.line {
+    width: 90%;
+    margin-top: 0px;
+}
+.hr-div {
+    height: 110px;
+    background-color: #2C333F;
+    margin-top: 1px;
+    display: flex;
+    padding-top: 30px;
+    padding-left: 30px;
+}
+.hr-div a {
+    color: white;
+}
+.hr-div > div {
+    display: flex;
+}
+.hr-div > div > a {
+    margin-left: 20px;
+}
+.hr-div > div:nth-child(2) {
+    margin-left: 33%;
+}
+
+
+@media only screen and (max-width: 1000px)  {
+    .footer {
+        display: flex;
+        flex-direction: column;
+        height: 1420px;
+    }
+    .table {
+        display: flex;
+        flex-direction: column;
+    }
+    .stamp-last {
+        margin: 30px 0;
+    }
+    .left-div ,.right-div {
+        width: 93%;
+    }
+    .line {
+        width: 99%;
+    }
+
+
+    .hr-div {
+        flex-direction: column;
+        height: 170px;
+        padding-left: 20px;
+    }
+    .hr-div > div {
+        flex-direction: column;
+    }
+    .hr-div > div:nth-child(2) {
+        margin-left: 0px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .footer {
+        height: 1500px;
+    }
+}
+
+/* ..........CSS For Footer - END.......... */
