@@ -1,7 +1,7 @@
-*{
+/* *{
     margin: 0;
     padding: 0;
-}
+} */
 /* Nave bar code */
 #navbar {
     width: 100%;
@@ -536,8 +536,11 @@
     }
     .child-div{
         width: 100%;
-        background-color: rgba(59,130,246,0.5);;
-        margin-top: 3%;
+        background-color: rgba(59,130,246,0.5);
+        margin-top: 5%;
+    
+        padding-right: 10%;
+        padding-left: 3%;
     }
     #navbar{
         background-color: #FFD85D;
@@ -743,9 +746,7 @@
     line-height: 2.5;
     margin-left: 15%;
 }
-.name{
-    font-weight: bold;
-}
+
 
 .ceo-img{
     height:70%;
@@ -1066,6 +1067,7 @@ width: 100%;
 .positioin:hover{
     border: 1px solid #267e6b;
     color: #267e6b;
+    
 }
 .l-div{
     margin-top: 1%;
@@ -1073,6 +1075,10 @@ width: 100%;
 
 
 .w-4:hover{
+    background-color: #267e6b;
+    color: #fff; 
+}
+.login-btn:hover{
     background-color: #267e6b;
     color: #fff; 
 }
@@ -1157,6 +1163,7 @@ width: 100%;
     margin-right: 0px;
     font-size:20px;
     padding-left: 10px;
+    margin-top: 3%;
 }
 .arow{
     height:50px;
@@ -1166,7 +1173,7 @@ width: 100%;
     font-size: 15px;
 }
 .social-icon{
-    width: 30%;
+    width: 100%;
     margin-top:5%;
     margin-bottom: 5%;
 }
@@ -1175,7 +1182,7 @@ width: 100%;
     font-size: 35px;
     height:90px;
     width: 90px;
-    margin-right: 10px;
+    margin-right: 10%;
     
     
 }
@@ -1252,6 +1259,17 @@ html{
         width: 100%;
         margin: auto;
         
+        
+    }
+    .foot{
+        font-size: 23px;
+    }
+    .post{
+        font-size:13px;
+    }
+    .email{
+        height: 30px;
+        width: 70%;
     }
     .left-div{
         width: 90%;
@@ -1261,5 +1279,17 @@ html{
     }
     .table{
         flex-direction: column;
+    }
+    .arow{
+        height: 30px;
+        margin-top: 5%;
+        
+
+    }
+    .face{
+        margin-right: 10%;
+    }
+    .social-icon{
+        width: 100%;
     }
 }
