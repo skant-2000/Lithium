@@ -1,14 +1,6 @@
-<<<<<<< HEAD
 /* ..........Navbar code - START.......... */
 
 
-=======
-/* *{
-    margin: 0;
-    padding: 0;
-} */
-/* Nave bar code */
->>>>>>> b15f79582804aa7d215188e78f58f220f9b099b8
 #navbar {
     width: 100%;
     height: 100px;
@@ -1029,32 +1021,14 @@ width: 100%;
 
 .footer {
     display: flex;
-<<<<<<< HEAD
     background-color: #2C333F;
     color: white;
     padding: 0.5% 2%;
     height: 650px;
-=======
-    line-height: 1;
-}
-.email{
-    height:50px;
-    border-radius: 9px;
-    border: none;
-    width: 390px;
-    margin-right: 0px;
-    font-size:20px;
-    padding-left: 10px;
-    margin-top: 3%;
->>>>>>> b15f79582804aa7d215188e78f58f220f9b099b8
 }
 .footer > div {
     margin: 3%;
 }
-<<<<<<< HEAD
-.left-div {
-    width: 45%;
-=======
 .social-icon{
     width: 100%;
     margin-top:5%;
@@ -1068,7 +1042,6 @@ width: 100%;
     margin-right: 10%;
     
     
->>>>>>> b15f79582804aa7d215188e78f58f220f9b099b8
 }
 .leader-name {
     font-size: 30px;
@@ -1134,9 +1107,6 @@ width: 100%;
     .footer {
         display: flex;
         flex-direction: column;
-<<<<<<< HEAD
-        height: 1420px;
-=======
         width: 100%;
         margin: auto;
         
@@ -1151,7 +1121,6 @@ width: 100%;
     .email{
         height: 30px;
         width: 70%;
->>>>>>> b15f79582804aa7d215188e78f58f220f9b099b8
     }
     .table {
         display: flex;
@@ -1175,20 +1144,6 @@ width: 100%;
     .hr-div > div {
         flex-direction: column;
     }
-<<<<<<< HEAD
-    .hr-div > div:nth-child(2) {
-        margin-left: 0px;
-    }
-}
-
-@media only screen and (max-width: 600px) {
-    .footer {
-        height: 1500px;
-    }
-}
-
-/* ..........CSS For Footer - END.......... */
-=======
     .arow{
         height: 30px;
         margin-top: 5%;
@@ -1202,4 +1157,3 @@ width: 100%;
         width: 100%;
     }
 }
->>>>>>> b15f79582804aa7d215188e78f58f220f9b099b8
