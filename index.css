@@ -104,7 +104,7 @@
 }
 #uncommontext > div > h1 {
     font-size: 60px;
-    font-family: 'Nanum Myeongjo', serif;
+    font-family: 'Noto Serif SC', serif;
     font-weight: 100;
 }
 #boldtxt {
@@ -115,6 +115,7 @@
 }
 #uncommontext > div > p {
     font-size: 20px;
+    font-family: 'Roboto', sans-serif;
 }
 #joinNow {
     width: 130px;
@@ -148,13 +149,15 @@
 #supporting > p:nth-child(1) {
     font-size: 15px;
     font-weight: 600;
+    font-family: 'Noto Serif SC', serif;
 }
 #supporting > h1 {
-    font-family: 'Nanum Myeongjo', serif;
+    font-family: 'Noto Serif SC', serif;
     font-weight: 600;
 }
 #supporting > p:nth-child(3) {
     font-size: 20px;
+    font-family: 'Roboto', sans-serif;
 }
 
 
@@ -176,6 +179,7 @@
 #approachtxt > div > p {
     margin-top: -30px;
     font-weight: 100;
+    font-family: 'Roboto', sans-serif;
 }
 #learn {
     border: 1px solid #267E6B;
@@ -194,6 +198,7 @@
 }
 ol {
     margin-left: -20px;
+    font-family: 'Roboto', sans-serif;
 }
 #approachtxt > ol > li > a {
     color: black;
@@ -207,7 +212,8 @@ ol {
     margin-top: 100px;
 }
 #asseen h1 {
-    font-weight: 100;
+    font-weight: 900;
+    font-family: 'Noto Serif SC', serif;
 }
 
 
@@ -217,12 +223,14 @@ ol {
 }
 #wehavegot > h1 {
     font-size: 45px;
+    font-family: 'Noto Serif SC', serif;
 }
 #wehavegottxt > div > img {
     width: 60px;
 }
 #wehavegottxt > div > p {
     font-size: 22px;
+    font-family: 'Roboto', sans-serif;
 }
 #wehavegotimg {
     background-image: url("https://hellobrightline.s3.amazonaws.com/homepage_boy_glasses_mom_6d5c417c5e.png");
@@ -250,6 +258,12 @@ ol {
 #flexible {
     text-align: center;
 }
+#flexible h1 {
+    font-family: 'Noto Serif SC', serif;
+}
+#flexible p {
+    font-family: 'Roboto', sans-serif;
+}
 #flexibleimg {
     background-image: url("https://hellobrightline.s3.amazonaws.com/product_animationx2_a6f2527d43.gif");
     background-size: cover;
@@ -262,6 +276,7 @@ ol {
     color: #267E6B;
     font-weight: 500;
     font-size: 35px;
+    font-family: 'Noto Serif SC', serif;
 }
 #flexibletxt p {
     font-size: 17px;
@@ -276,6 +291,7 @@ ol {
 #asseen2 > p {
     font-size: 45px;
     margin-bottom: 100px;
+    font-family: 'Roboto', sans-serif;
 }
 #card > div {
     padding: 40px 5px 0px;
@@ -317,7 +333,12 @@ ol {
     margin: 5px 10px;
 }
 
-
+#started h1, h2 {
+    font-family: 'Noto Serif SC', serif;
+}
+#started p {
+    font-family: 'Roboto', sans-serif;
+}
 #started > div > div {
     background-color: #FFF3CE;
 }
@@ -761,6 +782,16 @@ ol {
         font-weight: 600;
         cursor: pointer;
     }
+    #btns > a {
+        width: 120px;
+        height: 35px;
+        border-radius: 50px;
+        margin-left: 10px;
+        text-align: center;
+        padding-top: 15px;
+        font-weight: 600;
+        cursor: pointer;
+    }
     #btns > div:nth-child(1) {
         border: 1px solid black;
         letter-spacing: 0.6px;
@@ -771,12 +802,13 @@ ol {
         border: 1px solid #267E6B;
         transition: all .1s ease-in-out;
     }
-    #btns > div:nth-child(2) {
+    #btns > a {
         background-color: #267E6B;
         color: white;
         letter-spacing: 1.3px;
+        margin-top: 0;
     }
-    #btns > div:nth-child(2):hover {
+    #btns > a:hover {
         background-color: #0d4b3d;
         transition: all .1s ease-in-out;
     }
@@ -817,6 +849,12 @@ ol {
     .droplist > div {
         font-size: 20px;
         margin-top: 15%;
+    }
+    .droplist > a {
+        font-size: 20px;
+        margin-top: 15%;
+        margin-top: 14px;
+        margin-bottom: -3px;
     }
     .droplist > div:hover {
         color: #0d4b3d;
@@ -1012,6 +1050,15 @@ ol {
     padding: 0.5% 2%;
     height: 650px;
 }
+.left-div > h2 {
+    font-family: 'Noto Serif SC', serif;
+}
+.left-div > p {
+    font-family: 'Roboto', sans-serif;
+}
+.right-div > p {
+    font-family: 'Roboto', sans-serif;
+}
 .footer > div {
     margin: 3%;
 }
@@ -1079,6 +1126,9 @@ ol {
 }
 .hr-div > div:nth-child(2) {
     margin-left: 33%;
+}
+.social-icon {
+    margin: 25px 0 0 0;
 }
 
 

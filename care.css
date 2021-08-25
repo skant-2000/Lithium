@@ -1,5 +1,33 @@
 /* ..........Navbar code - START.......... */
+#btns > a {
+    width: 120px;
+    height: 35px;
+    border-radius: 50px;
+    margin-left: 10px;
+    text-align: center;
+    padding-top: 15px;
+    font-weight: 600;
+    cursor: pointer;
+}
 
+#btns > a {
+    background-color: #267E6B;
+    color: white;
+    letter-spacing: 1.3px;
+    margin-top: 0;
+}
+
+#btns > a:hover {
+    background-color: #0d4b3d;
+    transition: all .1s ease-in-out;
+}
+
+.droplist > a {
+    font-size: 20px;
+    margin-top: 15%;
+    margin-top: 14px;
+    margin-bottom: -3px;
+}
 
 #navbar {
     width: 100%;
@@ -358,6 +386,7 @@ button:hover{
     display: flex;
     flex-direction: row;
     width: 100%;
+    padding-top: 90px;
 }
 #cont > div > img{
     height: 100%;
@@ -379,17 +408,15 @@ button:hover{
    
 }
 #box  h1{
-    font-size: 1px;
+    font-size: 10px;
     padding-top: 3%;
     padding-left: 5%;
-    font-family: ApercuPro,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif;
 }
-
 #box h3{
     font-size: 1.125rem;
     line-height: 1.778;
     padding-left: 5%;
-    font-family: Gabriela,ui-serif,Georgia,Cambria,Times New Roman,Times,serif;
+    font-family: 'Roboto', sans-serif;
 }
 #box h2{
     font-size: 3rem;
@@ -399,7 +426,7 @@ button:hover{
     padding-top: 2%;
     font-weight: 300;
     color: darkslategray;
-    font-family: Gabriela,ui-serif,Georgia,Cambria,Times New Roman,Times,serif;
+    font-family: 'Noto Serif SC', serif;
 }
 .ft-wt{
    font-weight: lighter;
@@ -428,7 +455,7 @@ button:hover{
     padding-top: 5%;
     padding-left: 5%;
     font-weight: 300;
-    font-family: Gabriela,ui-serif,Georgia,Cambria,Times New Roman,Times,serif;
+    font-family: 'Roboto', sans-serif;
 }
 h2 b{
     color: teal;
@@ -440,29 +467,26 @@ h2 b{
 .cont2{
     height:450px;
     width: 70%;
-    padding-left: 9%;
-    margin-top: 150px;
+    margin-top: 250px;
     text-align: center;
+    margin: auto;
+    padding-top: 70px;
 }
 .cont2 > h1{
-    font-family: Gabriela,ui-serif,Georgia,Cambria,Times New Roman,Times,serif;
     font-weight: 600;
-    margin-left: 10%;
     font-size: 2.5rem;
     line-height: 1.2;
 }
 .cont2 > p{
-    font-family: Gabriela,ui-serif,Georgia,Cambria,Times New Roman,Times,serif;
+    font-family: 'Roboto', sans-serif;
     margin-top: 0px;
-    font-size: 10px;
-    margin-left: 10%;
+    font-size: 13px;
 }
 #box2{
     height:auto;
     display: flex;
     padding-top: 50px;
     width: 100%;
-    margin-left: 8%;
     column-gap: 30px;
 }
 #box2 div{
@@ -480,35 +504,35 @@ h2 b{
     line-height: 1.778;
     text-align: left;
     color: teal;
-    font-family: Gabriela,ui-serif,Georgia,Cambria,Times New Roman,Times,serif;
+    font-family: 'Roboto', sans-serif;
     font-weight: 600;
 }
 #box2 p{
-    font-family: ApercuPro,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif;
+    font-family: 'Roboto', sans-serif;
     text-align: left;
     padding-top: 10px;
-    font-size: 10px;
+    font-size: 13px;
 }
 .age p{
     font-style: italic;
     font-size: 2px;
 }
 .cont2 h1{
-    font-family: Gabriela,ui-serif,Georgia,Cambria,Times New Roman,Times,serif;
+    font-family: 'Noto Serif SC', serif;
     text-align: center;
     margin-bottom: 20px;
 }
 .cont3{
-    height: 710px;
-    width:68%;
-    padding-left: 12%;
+    height: 700px;
+    width:70%;
+    margin: auto;
 }
 .cont3 p,.cont4 p, .para2 p ,.box3 p,.main p,.cont6 p{
     text-align: center;
     font-family: ApercuPro,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif;
     padding-right: 30px;
     padding-left: 30px;
-    font-size: 10px;
+    font-size: 16px;
     padding-bottom: 20px;
 }
 .main p{
@@ -523,7 +547,7 @@ h2 b{
     flex-direction: row;
     column-gap: 20px;
     width: 100%;
-    height: auto;
+    height: 650px;
 }
 #box3 > div{
     
@@ -549,31 +573,32 @@ h2 b{
     font-weight: 20;
     font-size: 25px;
     color:#263238 ;
+    font-family: 'Noto Serif SC', serif;
 }
 .header{
     text-align: center;
-    font-family: Gabriela,ui-serif,Georgia,Cambria,Times New Roman,Times,serif;
     margin-top: 150px;
     color: #263238;
     font-size: 22px;
+    font-family: 'Noto Serif SC', serif;
 }
 .header-main{
     text-align: center;
-    font-family: Gabriela,ui-serif,Georgia,Cambria,Times New Roman,Times,serif;
+    font-family: 'Roboto', sans-serif;
     margin-top: 150px;
     color: #263238;
     font-size: 22px;
 }
 .header2{
     text-align: center;
-    font-family: Gabriela,ui-serif,Georgia,Cambria,Times New Roman,Times,serif;
+    font-family: 'Noto Serif SC', serif;
     margin-top: 150px;
     color: #263238;
     font-size: 40px;
     font-weight: 300;
 }
 #box3 p{
-    font-family: ApercuPro,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 0.5;
     text-align:start;
     padding-left: 30px;
@@ -581,10 +606,11 @@ h2 b{
     font-weight:50;
 }
 .cont4{
-    width: 100%;
+    width: 88%;
     padding: 3rem 4rem;
     display: flex;
     flex-direction: row;
+    margin: auto;
 }
 .flex-box1{
     width: 100%;
@@ -619,7 +645,7 @@ h2 b{
 .icon-dis h3{
     margin-top: 0px;
     color: #2C333F;
-    font-family: Gabriela,ui-serif,Georgia,Cambria,Times New Roman,Times,serif;
+    font-family: 'Roboto', sans-serif;
 }
 .women-image{
     height: 100%;
@@ -974,7 +1000,7 @@ h2 b{
        margin-top: 38px;
     }
     #box h1{
-        font-size: 0.5px;
+        font-size: 10px;
         padding-top: 5%;
         padding-left: 5%;
     }

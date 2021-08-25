@@ -1,4 +1,34 @@
 /* nav bar ss file */
+#btns > a {
+    width: 120px;
+    height: 35px;
+    border-radius: 50px;
+    margin-left: 10px;
+    text-align: center;
+    padding-top: 15px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+
+#btns > a {
+    background-color: #267E6B;
+    color: white;
+    letter-spacing: 1.3px;
+    margin-top: 0;
+}
+
+#btns > a:hover {
+    background-color: #0d4b3d;
+    transition: all .1s ease-in-out;
+}
+
+.droplist > a {
+    font-size: 20px;
+    margin-top: 15%;
+    margin-top: 14px;
+    margin-bottom: -3px;
+}
 
 #navbar {
     width: 100%;
@@ -332,7 +362,7 @@
 
 }
 .about{
-    font-size:20px;
+    font-size:13px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin-bottom: 1px;
     font-weight:400;
@@ -352,23 +382,23 @@
     
 }
 .text-h{
-    font-family: Gabriela,ui-serif,Georgia,Cambria,Times New Roman,Times,serif;
+    font-family: 'Noto Serif SC', serif;
     font-weight: 100;
-    font-size: 60px;
+    font-size: 40px;
     line-height: 1.2;
 }
 .text-h > strong {
     --tw-text-opacity: 1;
     color: rgba(38,126,107,var(--tw-text-opacity));
-    font-family: Gabriela,ui-serif,Georgia,Cambria,Times New Roman,Times,serif;
+    font-family: 'Noto Serif SC', serif;
     font-weight: 100;
-    font-size: 60px;
+    font-size: 40px;
     
 }
 .child-div > p {
-    font-family: ApercuPro,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-weight: 400;
-    font-size: 25px;
+    font-size: 15px;
     line-height: 1.5;
 }
 @media only screen and (max-width: 1000px){
@@ -464,6 +494,7 @@
 .mobi-para{
     margin-left: 55px;
     font-size: 25px;
+    font-family: 'Roboto', sans-serif;
 }
 .mobile-phone{
     width: 50%;
@@ -549,6 +580,7 @@
 .flex-para{
     font-size:25px;
     line-height: 1.2;
+    font-family: 'Roboto', sans-serif;
 }
 .running-img-div{
     margin-top: 5%;
@@ -642,6 +674,7 @@
 .brightline{
     font-size: 50px;
     text-align: center;
+    font-family: 'Roboto', sans-serif;
 }
 .felt-lost {
     background-color: #deebe9;
@@ -678,11 +711,12 @@
 /* lastdiv */
 
 .submit{
-    width: 200px;
+    width: 150px;
     margin-top: 2%;
     background-color: #267E6B;
     color : #fff;
     border: #267E6B;
+    height: 60px;
 }
 .submit:hover{
     background-color: #105546;
@@ -694,13 +728,13 @@
     flex-wrap: wrap;
 }
 label{
-    font-size: 25px;
+    font-size: 18px;
     font-weight: 100;
     
 }
 .form-input{
     width: 95%;
-    height: 50px;
+    height: 40px;
     border-radius: 10px;
     border: gray;
     border-top: 3px solid gray;
@@ -719,9 +753,9 @@ input[type="email"]{
 }
 select{
     width: 95%;
-    height: 53px;
-    font-size: 25px;
-    margin-top: 5px;
+    height: 43px;
+    font-size: 18px;
+    margin-top: 10px;
     border-radius: 10px;
     border: gray;
     border-top: 3px solid gray;
