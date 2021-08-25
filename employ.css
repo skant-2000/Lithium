@@ -332,7 +332,7 @@
 
 }
 .about{
-    font-size:20px;
+    font-size:13px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin-bottom: 1px;
     font-weight:400;
@@ -354,7 +354,7 @@
 .text-h{
     font-family: Gabriela,ui-serif,Georgia,Cambria,Times New Roman,Times,serif;
     font-weight: 100;
-    font-size: 60px;
+    font-size: 40px;
     line-height: 1.2;
 }
 .text-h > strong {
@@ -362,13 +362,13 @@
     color: rgba(38,126,107,var(--tw-text-opacity));
     font-family: Gabriela,ui-serif,Georgia,Cambria,Times New Roman,Times,serif;
     font-weight: 100;
-    font-size: 60px;
+    font-size: 40px;
     
 }
 .child-div > p {
     font-family: ApercuPro,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif;
     font-weight: 400;
-    font-size: 25px;
+    font-size: 15px;
     line-height: 1.5;
 }
 @media only screen and (max-width: 1000px){
@@ -678,11 +678,12 @@
 /* lastdiv */
 
 .submit{
-    width: 200px;
+    width: 150px;
     margin-top: 2%;
     background-color: #267E6B;
     color : #fff;
     border: #267E6B;
+    height: 60px;
 }
 .submit:hover{
     background-color: #105546;
@@ -694,13 +695,13 @@
     flex-wrap: wrap;
 }
 label{
-    font-size: 25px;
+    font-size: 18px;
     font-weight: 100;
     
 }
 .form-input{
     width: 95%;
-    height: 50px;
+    height: 40px;
     border-radius: 10px;
     border: gray;
     border-top: 3px solid gray;
@@ -719,9 +720,9 @@ input[type="email"]{
 }
 select{
     width: 95%;
-    height: 53px;
-    font-size: 25px;
-    margin-top: 5px;
+    height: 43px;
+    font-size: 18px;
+    margin-top: 10px;
     border-radius: 10px;
     border: gray;
     border-top: 3px solid gray;
