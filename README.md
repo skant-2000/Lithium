@@ -17,11 +17,10 @@
 - ### [Gauri Patil](https://www.linkedin.com/in/gauripatil79/)
 
 # 💎 Overview
-<!-- 
-![home (2)](https://user-images.githubusercontent.com/72353440/150798967-df44b523-0383-4ffe-b2f8-56b23fc1a997.png)
-<br/><hr/>
-![home](https://user-images.githubusercontent.com/72353440/157817772-b62febe2-f0b4-4334-b195-feb613b4f415.png)
-<br/><hr/>
-![place](https://user-images.githubusercontent.com/72353440/157817797-725c0741-6232-4b5c-b90b-7ef7a4703e91.png)
-<br/><hr/>
- -->
+
+![first1](https://user-images.githubusercontent.com/72353440/158439342-32a13278-ef5e-475e-a769-9bd0c41eb56e.png)
+<br><hr/>
+![third2](https://user-images.githubusercontent.com/72353440/158439367-e9c85484-6d4f-4a3b-b593-12137792ab66.png)
+<br><hr/>
+![second2](https://user-images.githubusercontent.com/72353440/158439765-894c9665-60b8-4560-8ce1-54dd1e3e7447.png)
+
